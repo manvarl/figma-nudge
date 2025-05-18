@@ -1,4 +1,4 @@
-# 🎉 Figma Nudge Plugin
+# 🫨 Figma Nudge Plugin
 
 Welcome to **Figma Nudge** 🚀
 
