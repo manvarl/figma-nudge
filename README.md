@@ -1,40 +1,39 @@
-Below are the steps to get your plugin running. You can also find instructions at:
+# 🎉 Figma Nudge Plugin
 
-  https://www.figma.com/plugin-docs/plugin-quickstart-guide/
+Welcome to **Figma Nudge** 🚀
 
-This plugin template uses Typescript and NPM, two standard tools in creating JavaScript applications.
+Remember the good old days of instant messaging, when a friendly *nudge* would shake your chat window and grab your attention? We’re bringing that nostalgic magic back—this time for Figma!
 
-First, download Node.js which comes with NPM. This will allow you to install TypeScript and other
-libraries. You can find the download link here:
+## What is Figma Nudge?
+Figma Nudge is your retro-inspired way to *nudge* your collaborators. Just like those classic messenger nudges, this plugin lets you send a gentle (or not-so-gentle) reminder to your teammates—perfect for when someone’s ignoring your comments, or you just want to have a little fun. Relive the fun, now with a dash of friendly mischief!
 
-  https://nodejs.org/en/download/
+## Features
+- 🔔 Nudge your teammates to grab their attention (no more silent collaborators!)
+- 🦾 Supercharge your teamwork with playful reminders
+- 😎 Easy to use, fun to master
+- 💬 Guaranteed to spark a bit of nostalgia and maybe a few laughs
 
-Next, install TypeScript using the command:
+## How to Install
+1. Download or clone this repo.
+2. Open Figma, go to **Plugins > Development > Import Plugin from Manifest...**
+3. Select the `manifest.json` file in this folder.
+4. Start nudging—no chat window required!
 
-  npm install -g typescript
+## Getting Started
+1. Select the layers or teammates you want to nudge in Figma.
+2. Run the plugin from the Figma plugins menu.
+3. Use the UI to send a nudge. Watch your teammates *wiggle* (or groan) just like in the old messenger days! 💃
 
-Finally, in the directory of your plugin, get the latest type definitions for the plugin API by running:
+## Development
+This plugin is built with TypeScript, so you get all the type safety and autocompletion goodness. To get started:
 
-  npm install --save-dev @figma/plugin-typings
+```bash
+npm install
+npm run watch
+```
 
-If you are familiar with JavaScript, TypeScript will look very familiar. In fact, valid JavaScript code
-is already valid Typescript code.
+Edit `code.ts` and `ui.html` to customize the plugin. The build process will automatically update `code.js`.
 
-TypeScript adds type annotations to variables. This allows code editors such as Visual Studio Code
-to provide information about the Figma API while you are writing code, as well as help catch bugs
-you previously didn't notice.
+---
 
-For more information, visit https://www.typescriptlang.org/
-
-Using TypeScript requires a compiler to convert TypeScript (code.ts) into JavaScript (code.js)
-for the browser to run.
-
-We recommend writing TypeScript code using Visual Studio code:
-
-1. Download Visual Studio Code if you haven't already: https://code.visualstudio.com/.
-2. Open this directory in Visual Studio Code.
-3. Compile TypeScript to JavaScript: Run the "Terminal > Run Build Task..." menu item,
-    then select "npm: watch". You will have to do this again every time
-    you reopen Visual Studio Code.
-
-That's it! Visual Studio Code will regenerate the JavaScript file every time you save.
+Made with ❤️ for designers who remember the golden age of messenger nudges—and love a little friendly chaos in their workflow.
